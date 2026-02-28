@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@layer base{
+    body{
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.nav-link {
+  @apply text-zinc-100 transition-colors duration-300 hover:text-emerald-400;
+}
