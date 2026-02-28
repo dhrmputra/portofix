@@ -4,6 +4,11 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import DataImage from './data';
 import { listTools, listProyek } from './data';
+import 'remixicon/fonts/remixicon.css';
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function App() {
   return (
