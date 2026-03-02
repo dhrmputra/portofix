@@ -1,4 +1,4 @@
-import HeroImage from "./assets/fotocv.webp";
+import HeroImage from "./assets/fotocvrial.png";
 
 const Image = {
   HeroImage,

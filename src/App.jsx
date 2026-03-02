@@ -7,7 +7,8 @@ import { listTools, listProyek } from './data';
 import 'remixicon/fonts/remixicon.css';
 import 'animate.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 AOS.init();
 
 function App() {
@@ -72,7 +73,6 @@ function App() {
                             mt-5
 
                             lg:ml-auto
-
                             w-[300px]
                             sm:w-[340px]
                             md:w-[380px]
@@ -85,10 +85,9 @@ function App() {
                             lg:h-[540px]
                             xl:h-[580px]
 
-                            bg-gradient-to-b from-emerald-700 to-emerald-800
-                            rounded-b-[100px]
+
+                            rounded-b-[150px]
                             overflow-hidden
-                            shadow-xl
                           ">
                         <img
                             src={DataImage.HeroImage}
