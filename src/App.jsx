@@ -145,7 +145,7 @@ import translations from './translations';
 
                 <section id="tools" className="tools mt-32">
                     <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">{translations[language].toolsTitle}</h1>
-                    <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w=3/4 w-full text-justify text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">{translations[language].toolsDesc}</p>
+                    <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w=3/4 w-full text-justify opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">{translations[language].toolsDesc}</p>
                     <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
 
                         {listTools.map((tool, index) => (

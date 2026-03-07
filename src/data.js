@@ -107,7 +107,7 @@ export const listTools = [
 ];
 
 import Proyek1 from "./assets/proyek/cacao.png";
-// import Proyek2 from "./assets/proyek/cacao1.png";
+import Proyek2 from "./assets/proyek/proyekhotel.png";
 // import Proyek3 from "./assets/proyek/cacao2.png";
 // import Proyek4 from "./assets/proyek/cacao3.png";
 // import Proyek5 from "./assets/proyek/cacao4.png";
@@ -121,15 +121,16 @@ export const listProyek = [
     desk: "Cocoa Disease Detection App adalah aplikasi Android berbasis deep learning yang dikembangkan dari skripsi saya, menggunakan metode YOLO untuk mendeteksi penyakit pada buah kakao melalui citra gambar. Aplikasi ini dibangun dengan Kotlin dan Java, serta mengintegrasikan model YOLO dalam format TensorFlow Lite untuk menghasilkan deteksi penyakit secara akurat dan efisien di perangkat mobile.",
     tools: ["YOLO", "Kotlin", "Roboflow", "TensorFlow Lite", "Android Studio"],
     dad: "200",
+  },
+
+  {
+    id: 2,
+    gambar: Proyek2,
+    nama: "Villa Management Website",
+    desk: "Sistem manajemen dan promosi villa berbasis web yang dirancang untuk mempermudah pengelolaan operasional sekaligus meningkatkan pengalaman pengguna dalam mencari villa. Website ini dikembangkan menggunakan Laravel untuk backend, serta React dan TailwindCSS untuk frontend, sehingga menghasilkan antarmuka yang cepat, responsif, dan modern. Platform ini memiliki dua bagian utama, yaitu admin dashboard yang memungkinkan pengelola mengatur data villa, kamar, pengguna, dan pemesanan, serta customer website yang menampilkan daftar villa, detail fasilitas, harga, dan informasi lokasi dengan desain yang elegan seperti website resort profesional",
+    tools: ["Laravel", "React", "Javascript", "TailwindCSS", "Vite", "MySQL", "Figma"],
+    dad: "300",
   }
-//   {
-//     id: 2,
-//     gambar: Proyek2,
-//     nama: "Company Profile",
-//     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-//     tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
-//     dad: "300",
-//   },
 //   {
 //     id: 3,
 //     gambar: Proyek3,
