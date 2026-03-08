@@ -120,6 +120,7 @@ export const listProyek = [
     nama: "Kakao Detection App",
     desk: "Cocoa Disease Detection App adalah aplikasi Android berbasis deep learning yang dikembangkan dari skripsi saya, menggunakan metode YOLO untuk mendeteksi penyakit pada buah kakao melalui citra gambar. Aplikasi ini dibangun dengan Kotlin dan Java, serta mengintegrasikan model YOLO dalam format TensorFlow Lite untuk menghasilkan deteksi penyakit secara akurat dan efisien di perangkat mobile.",
     tools: ["YOLO", "Kotlin", "Roboflow", "TensorFlow Lite", "Android Studio"],
+    url: "https://github.com/dhrmputra/KakaoDetectionApp",
     dad: "200",
   },
 
@@ -129,6 +130,7 @@ export const listProyek = [
     nama: "Villa Management Website",
     desk: "Sistem manajemen dan promosi villa berbasis web yang dirancang untuk mempermudah pengelolaan operasional sekaligus meningkatkan pengalaman pengguna dalam mencari villa. Website ini dikembangkan menggunakan Laravel untuk backend, serta React dan TailwindCSS untuk frontend, sehingga menghasilkan antarmuka yang cepat, responsif, dan modern. Platform ini memiliki dua bagian utama, yaitu admin dashboard yang memungkinkan pengelola mengatur data villa, kamar, pengguna, dan pemesanan, serta customer website yang menampilkan daftar villa, detail fasilitas, harga, dan informasi lokasi dengan desain yang elegan seperti website resort profesional",
     tools: ["Laravel", "React", "Javascript", "TailwindCSS", "Vite", "MySQL", "Figma"],
+    url: "https://github.com/dhrmputra/hotela",
     dad: "300",
   }
 //   {

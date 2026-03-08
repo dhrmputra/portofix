@@ -176,7 +176,7 @@ import translations from './translations';
                                         ))}
                                     </div>
                                     <div className='mt-8 text-center'>
-                                        <a href='#' className='bg-emerald-600 p-3 rounded-lg block border border-emerald-600 hover:bg-emerald-500 text-white'>{translations[language].viewProject}</a>
+                                        <a href={proyek.url} className='bg-emerald-600 p-3 rounded-lg block border border-emerald-600 hover:bg-emerald-500 text-white' target="_blank" rel="noopener noreferrer">{translations[language].viewProject}</a>
                                     </div>
                                 </div>
                             </div>
