@@ -169,7 +169,7 @@ import translations from './translations';
                                 <img src={proyek.gambar} alt="proyek image" className='w-full h-50 object-cover rounded-md' loading='lazy' />
                                 <div>
                                     <h1 className='font-bold text-2xl my-4'>{proyek.nama}</h1>
-                                    <p className='text-sm/loose mb-4 text-justify'>{proyek.desk}</p>
+                                    <p className='text-sm/loose mb-4 text-justify'>{translations[language][proyek.desk]}</p>
                                     <div className='flex flex-wrap gap-2'>
                                         {proyek.tools.map((tool, index) => (
                                             <p key={index} className='border border-neutral-500 bg-neutral-700 px-3 py-1 rounded-md text-white'>{tool}</p>
