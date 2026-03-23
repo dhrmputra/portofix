@@ -28,7 +28,7 @@ export default function Navbar({ language, changeLanguage }) {
   }
 
   return (
-    <nav className="top-0 left-0 w-full backdrop-blur-md bg-white/30 dark:bg-neutral-900/30 shadow-md z-50 dark:shadow-none">
+    <nav className="top-0 left-0 w-full backdrop-blur-md bg-white/30 dark:bg-neutral-900/30 shadow-md z-50 dark:shadow-none relative z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
 
         {/* LOGO */}
