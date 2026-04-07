@@ -108,7 +108,7 @@ export const listTools = [
 
 import Proyek1 from "./assets/proyek/cacao.png";
 import Proyek2 from "./assets/proyek/proyekhotel.png";
-// import Proyek3 from "./assets/proyek/cacao2.png";
+import Proyek3 from "./assets/proyek/proyekbaliheritage.png";
 // import Proyek4 from "./assets/proyek/cacao3.png";
 // import Proyek5 from "./assets/proyek/cacao4.png";
 // import Proyek6 from "./assets/proyek/cacao5.png";
@@ -132,15 +132,17 @@ export const listProyek = [
     tools: ["Laravel", "React", "Javascript", "TailwindCSS", "Vite", "MySQL", "Figma"],
     url: "https://github.com/dhrmputra/hotela",
     dad: "300",
+  },
+
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Bali Heritage",
+    desk: "BaliHeritageDesc",
+    tools: ["Docker", "Linux", "NGINX", "Google Cloud", "Laravel", "PostgreSQL", "Bitbucket" ],
+    url: "https://github.com/dhrmputra/baliheritage",
+    dad: "400",
   }
-//   {
-//     id: 3,
-//     gambar: Proyek3,
-//     nama: "Web Pernikahan 2.0",
-//     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-//     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-//     dad: "400",
-//   },
 //   {
 //     id: 4,
 //     gambar: Proyek4,
