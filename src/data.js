@@ -139,7 +139,7 @@ export const listProyek = [
     gambar: Proyek3,
     nama: "Bali Heritage",
     desk: "BaliHeritageDesc",
-    tools: ["Docker", "Linux", "NGINX", "Google Cloud", "Laravel", "PostgreSQL", "Bitbucket" ],
+    tools: ["Docker", "Linux", "NGINX", "Laravel", "PostgreSQL", "Google Cloud", "Bitbucket" ],
     url: "https://github.com/dhrmputra/baliheritage",
     dad: "400",
   }
