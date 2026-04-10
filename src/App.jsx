@@ -184,7 +184,7 @@ function App() {
                         {listProyek.map((proyek) => (
                             <div
                                 key={proyek.id}
-                                className='p-4 rounded-md bg-neutral-100 dark:bg-neutral-800 flex flex-col h-full'
+                                className='p-4 rounded-md bg-neutral-200 dark:bg-neutral-800 flex flex-col h-full'
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                                 data-aos-delay={proyek.dad}
