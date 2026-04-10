@@ -48,7 +48,7 @@ export default function Navbar({ language, changeLanguage }) {
           <div className="flex items-center gap-4">
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-full bg-neutral-200 dark:bg-neutral-800 transition"
+              className="p-2 rounded-full bg-neutral-200 dark:bg-neutral-800 transition cursor-pointer border"
             >
               {darkMode ? (
                 <Sun size={18} className="text-yellow-400" />
