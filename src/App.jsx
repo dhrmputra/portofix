@@ -233,7 +233,7 @@ function App() {
                 <section id="contact" className="kontak mt-32 p-10 sm:p-10 p-0">
                     <h1 className="text-4xl text-center font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">{translations[language].contactTitle}</h1>
                     <p className="text base/loose md:text-center text-justify    mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">{translations[language].contactDesc}</p>
-                    <form action="https://formsubmit.co/dharma.putra2003@gmail.com" method="POST" className="bg-neutral-100 dark:bg-neutral-800 p-10 rounded-md w-fit mx-auto sm:w-fit w-full" autoComplete='off' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <form action="https://formsubmit.co/dharma.putra2003@gmail.com" method="POST" className="bg-neutral-100 border dark:bg-neutral-800 p-10 rounded-md w-fit mx-auto sm:w-fit w-full" autoComplete='off' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <div className='flex flex-col gap-6'>
                             <div className='flex flex-col gap-2'>
                                 <label className='font-semibold'>Nama Lengkap</label>
